@@ -1,0 +1,71 @@
+
+*{
+       font-family: "Roboto", sans-serif;
+}
+
+
+
+body {
+  background: linear-gradient(135deg, #a7e9af, #2a7844, #000000);
+  min-height: 100vh;
+  background-attachment: fixed;
+  color: white;
+}
+
+
+
+.font1{
+    font-family: "Bitcount Grid Double", system-ui;
+    color: #013103;
+    font-size: 42px;
+}
+
+.section-padding {
+    padding: 80px 15px;
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; 
+  flex-wrap: wrap; 
+}
+
+#welcome img {
+  max-width: 80%;
+  height: auto;
+}
+
+
+.texto-welcome h1,
+.texto-welcome h2,
+.texto-welcome h3 {
+  margin: 0;
+
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+a {
+    color: #a7e9af;
+}
+
+a:hover {
+    color: #cff4d2;
+}
+
+
+.btn-outline-success {
+    border-color: #a7e9af;
+    color: #a7e9af;
+}
+
+.btn-outline-success:hover {
+    background-color: #a7e9af;
+    color: #000000;
+}
